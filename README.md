@@ -39,4 +39,9 @@ Si vous avez un doute sur un des termes utilisés dans ce repository, c'est ici 
 
 ### JS
 
-*en cours de rédaction*
+JS est un langage de programmation interprété, utilisé d'abord dans du développement front-end pour les navigateurs, puis puis du développement back-end pour les serveurs web.
+
+Découvrez les bases du langage et ses principes, et commencez à faire vos premiers programmes simples en JS
+
+- [Plus d'infos ici](./js)
+
