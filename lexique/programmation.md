@@ -63,7 +63,7 @@ Il est impossible de réaliser la même opération avec un int.
 
 Il faut noter que dans certains langages (comme le js ou le php), il est possible de transformer le type d'une variable. Par exemple en js : 
 
-```js
+```pseudo code
 
 isAnInt = 10; // la variable isAnInt est un int qui vaut 10
 
@@ -81,9 +81,9 @@ La plupart du temps, les langages de programmation ont des moyens communs pour d
  * float : la variable se compose de chiffres séparés par un point (la virgule flottante en anglais)
  * array : la variable se compose d'une liste de valeurs de divers types, séparées par des virgules et entourés de `[]`
 
-*Exemples en js*
+*Exemples en pseudo code*
 
-```js
+```
 stringWithSingleQuote = 'ceci est un string entouré de single quote';
 
 stringWithDoubleQuote = "ceci est un string entouré de double quote";
@@ -97,6 +97,56 @@ arrayOfStrings = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', '
 arrayOfInt = [0, 2, 4, 6, 8];
 
 arrayOfMixedTypes = [0, 'lundi', 10.102];
+```
+
+## Scope
+
+Le scope peut être défini comme la zone dans laquelle un élément (variable ou fonction) est accessible. On ne peut pas manipuler un élément en dehors de son scope.
+
+Par exemple, si une variable est définie dans une fonction, elle est manipulable uniquement dans cette fonction et pas ailleurs.
+
+```
+
+globalVariable = 'I am global';
+
+function stupid(){
+	stupidVariable = 'I am in stupid';
+
+	afficher(globalVariable); //affichera 'I am global'
+	afficher(stupidVaribale); //affichera 'I am in stupid'
+	
+}
+
+afficher(globalVariable); //affichera 'I am global'
+afficher(stupidVaribale); //le programme plantera, stupidVariable a été défini dans un scope moins global
+
+```
+
+## Objet
+
+Un objet est un type particulier d'une variable. Tous les langages de programmation n'utilisent pas les objets. C'est un élément que l'on retrouve en JS et en PHP par exemple.
+
+Un objet est une variable embarquant avec elle un certains nombre de propriétés et de fonctions. Les fonctions d'un objet ne peuvent être appelées que si un objet valide est présent. 
+
+L'état d'un objet (ses propriétés) peut être modifié à tout moment :
+
+```
+
+myObject = {
+	name: 'toto',
+	email: 'toto@gmail.com'
+};
+
+function setName(object, name){
+	object.name = name;
+}
+
+afficher(myObject.name); //affichera 'toto'
+
+setName(myObject, 'tutu');
+
+afficher(myObject.name); //afficehera tutu
+
 ```
 
 ## Fonction
