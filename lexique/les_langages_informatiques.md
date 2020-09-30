@@ -24,12 +24,12 @@ Un langage de informatique est un langage lisible facilement par un humain, et t
 
  * le langage de programmation (comme le php, le js, le C, le java, ...)
  * le langage de balise (comme l'html, le xml, le markdown, le yml, le json ...)
- * le langage de requête (comme le sql, le mongoDB, le )
+ * le langage de requête (comme le sql, le mongoDB, ... )
  * le langage pseudo-code
 
 ## Langage de programmation
 
-Un langage de programmation a comme principale caractéristique qu'il permet de créer des programmes. Une suite d'instructions exécutées par une machine. L'intérêt du langage de programmation est de pouvoir adaptées les instructions en fonction des données que l'on envoie au programme.
+Un langage de programmation a comme principale caractéristique qu'il permet de créer des programmes. Une suite d'instructions exécutées par une machine. L'intérêt du langage de programmation est de pouvoir adapter les instructions en fonction des données que l'on envoie au programme.
 
 Il existe plusieurs manières de différencier des langages de programmations : selon leurs philosophies, leurs manières de s'exécuter, leurs paradigmes... Voici un exemple de différenciation : 
 
