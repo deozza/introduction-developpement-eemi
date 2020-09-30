@@ -39,13 +39,11 @@ let result = firstNumber * secondNumber;
 
 ### Les commentaires
 
-Pour écrire des commentaires en JS, on utilise : `//`, `#`, `/* */`;
+Pour écrire des commentaires en JS, on utilise `//` ou `/* */`;
 
 ```js
 
 //Ceci est un commentaire sur une ligne
-
-# Ceci est un commentaire sur une ligne
 
 /*
 
