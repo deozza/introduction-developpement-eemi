@@ -6,13 +6,13 @@ Tous les exemples utilisés pour illustrer les termes seront écrits en pseudo-c
 
 ## Sommaire
 
-- [Lexique général autours de la programmation](#lexique-g-n-ral-autours-de-la-programmation)
+- [Lexique général autours de la programmation](#lexique-général-autours-de-la-programmation)
   * [Sommaire](#sommaire)
   * [Algoritme](#algoritme)
   * [Variable](#variable)
   * [Fonction](#fonction)
   * [Opérateurs](#op-rateurs)
-  * [Structures de contrôles](#structures-de-contr-les)
+  * [Structures de contrôles](#structures-de-contrôles)
 
 ## Algoritme
 
@@ -309,10 +309,11 @@ Une structure de contrôle permet d'ajouter de la logique dans notre programme. 
  * `if ... else ...` : si la condition est remplie exécuter ... sinon exécuter ...
  * `for` : pour un nombre fini d'itérations, exécuter ...
  * `while` : tant que ma condition est remplie, exécuter
+ * `switch` : une manière simplifiée d'enchainer des if...else if...else if...else
 
-*Exemple d'utilisation de structure de contrôle en js:*
+*Exemple d'utilisation du if en :*
 
-```js
+```
 function checkNumberIsPositive(number){
 
 	if(number == 0){
@@ -330,5 +331,23 @@ checkNumberIsPositive(10); // 'il est positif'
 checkNumberIsPositive(10.2657); // 'il est positif'
 checkNumberIsPositive(-23); // 'il est négatif'
 ```
+
+*Meme exemple mais avec un switch en :*
+
+```
+function checkNumberIsPositive(number){
+	switch(number){
+		case number == 0 : return 'il est positif et négatif';
+		case number > 0 : return 'il est positif';
+		default : return 'il est négatif';
+	}
+}
+
+checkNumberIsPositive(0); // 'il est positif et négatif'
+checkNumberIsPositive(10); // 'il est positif'
+checkNumberIsPositive(10.2657); // 'il est positif'
+checkNumberIsPositive(-23); // 'il est négatif'
+```
+
 
 Lorsqu'une structure de contrôle exécute le même bout de code plusieurs fois d'affilés, on appelle cela une boucle.
