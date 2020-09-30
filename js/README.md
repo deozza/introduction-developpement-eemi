@@ -209,6 +209,42 @@ let numberOfDaysInAWeek = daysInAWeek.length; //utilisation de la propriété `l
 console.log(numberOfDaysInAWeek); //affichera la taille du tableau, soit 7
 ```
 
+### Structure de contrôle - le cas du `for`
+
+En JS, il existe plusieurs manières de boucler sur un nombre fini d'éléments. La méthode la plus simple et la plus commune :
+
+```js
+//pour i commençant à 0, jusqu'à i inférieur à 10, et chaque tour de boucle on incrémente i de 1
+for(let i = 0; i < 10 i ++){
+	console.log(i); affichera 0, 1, 2, 3 ... 9
+}
+```
+
+La méthode pour boucler sur une liste d'élements en fonction des indexs de la liste : 
+
+```js
+
+let daysOfWeek = ['lundi', 'mardi', 'mercredi'];
+
+for(element in daysOfWeek){
+	console.log(element); // affichera l'index en cours, soit 0, 1, 2
+	console.log(daysOfWeek[element]); // affichera l'élement de la liste en fonction de l'index en cours, soit 'lundi', 'mardi', 'mercredi'
+}
+
+```
+
+La méthode pour boucler sur une liste d'élements en fonction des éléme de la liste : 
+
+```js
+
+let daysOfWeek = ['lundi', 'mardi', 'mercredi'];
+
+for(element of daysOfWeek){
+	console.log(element); // affichera l'élement de la liste en cours, soit 'lundi', 'mardi', 'mercredi'
+}
+
+```
+
 ### Les fonctions
 
 Pour créer une fonction en JS, on utilisera le mot-clef `function` suivi du nom de la fonction, de la liste des arguments entourés de `()`, puis le code à exécuter par la fonction dans `{}`: 
