@@ -4,7 +4,7 @@ Bienvenue sur ce repository !
 
 **Une demande particulière ?**
 
-N'hésitez pas à me la faire parvenir via l'onglet `issues`
+N'hésitez pas à me la faire parvenir via l'onglet [issues](https://github.com/deozza/introduction-developpement-eemi/issues)
 
 ## Sommaire
 
