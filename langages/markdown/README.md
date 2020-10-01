@@ -184,7 +184,7 @@ ___gras et italique___
 
 
 ```
-[aller sur le sommaire([#sommaire)
+[aller sur le sommaire(#sommaire)
 ```
 
 [aller sur le sommaire](#sommaire)
