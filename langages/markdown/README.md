@@ -2,6 +2,26 @@
 
 ## Sommaire
 
+- [Introduction au markdown](#introduction-au-markdown)
+  * [Sommaire](#sommaire)
+  * [Utilité](#utilit-)
+  * [Formatage](#formatage)
+    + [Ecrire un paragraphe](#ecrire-un-paragraphe)
+      - [Formaté du texte](#format--du-texte)
+    + [Ecrire un titre](#ecrire-un-titre)
+- [Titre de niveau 1](#titre-de-niveau-1)
+  * [Titre de niveau 2](#titre-de-niveau-2)
+    + [Titre de niveau 3](#titre-de-niveau-3)
+      - [Titre de niveau 4](#titre-de-niveau-4)
+        * [Titre de niveau 5](#titre-de-niveau-5)
+          + [Titre de niveau 6](#titre-de-niveau-6)
+    + [Ecrire une liste](#ecrire-une-liste)
+      - [Liste ordonnée](#liste-ordonn-e)
+      - [Liste non ordonnée](#liste-non-ordonn-e)
+    + [Faire un lien](#faire-un-lien)
+    + [Ecrire du code](#ecrire-du-code)
+
+
 ## Utilité
 
 Le markdown (abrégé md) est un langage de balise qui permet d'écrire des fichiers de texte formattés et légers. Il est notamment utilisé pour écrire la documentation des applications. On le retrouve également dans certains sites pour écrire des messages, comme sur Reddit.
