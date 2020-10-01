@@ -45,10 +45,23 @@ Découvrez les bases du langage et ses principes, et commencez à faire vos prem
 
 - [Plus d'infos ici](./langages/js)
 
+#### Nodejs
+
+Nodejs est une plateforme logicielle pour le langage de programmation JS.
+
+- [Plus d'infos ici](./langages/js/nodejs)
 
 ## Les concepts avances
 
 ### Les API
 
 Les API sont des applications tournées vers le backend et qui permettent à un produit de mettre à disposition ses données à d'autres applications.
+
+- [Plus d'infos ici](./api)
+
+
 ### Le MVC
+
+Le modèle MVC est une manière de structurer son application afin de gagner en lisibilite et productivité, tout en respectant des bonnes pratiques de développement.
+
+- [Plus d'infos ici](./mvc)
