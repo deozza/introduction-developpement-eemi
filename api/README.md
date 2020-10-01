@@ -206,3 +206,7 @@ On peut utiliser n'importe quel langage de programmation pour construire une API
 Même s'il est possible de construire une API à partir de n'importe quels langages, certains sont plus adaptés ou accessibles que d'autres. Les langages tournés web notamment, comme JS et PHP. Ces deux langages possèdent d'ailleurs framework les plus utilisés pour construire des API (express.js pour JS et Symfony pour PHP).
 
 Vous pourrez retrouver [ici](https://github.com/gothinkster/realworld) un projet qui liste différentes manières de construire la même API pour reproduire le site medium à partir de différents langages et différentes technologies.
+
+## Tester facilement une API
+
+Pour manipuler facilement des API déployées et disponibles sur le web, vous pouvez utilisez le logicel [Postman](https://www.postman.com/downloads/) . Compatible avec tous les ordinateurs, ce logiciel permet d'envoyer des requêtes à des API et de visualiser les réponses qu'elles nous renvoient.
