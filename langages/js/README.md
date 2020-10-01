@@ -2,6 +2,21 @@
 
 ## Sommaire
 
+- [Introduction à JS](#introduction-à-js)
+  * [Sommaire](#sommaire)
+  * [Les sites utiles](#les-sites-utiles)
+  * [Un peu d'histoire](#un-peu-d-histoire)
+  * [Les principes de JS](#les-principes-de-js)
+    + [L'utilisation de `;`](#l-utilisation-de----)
+    + [Les commentaires](#les-commentaires)
+    + [Les variables](#les-variables)
+    + [Les types dans JS](#les-types-dans-js)
+    + [Structure de contrôle - le cas du `for`](#structure-de-contrôle---le-cas-du--for-)
+    + [Les fonctions](#les-fonctions)
+    + [Un langage asynchrone](#un-langage-asynchrone)
+  * [Des exemples de programmes simples avec JS](#des-exemples-de-programmes-simples-avec-js)
+
+
 
 ## Les sites utiles
 
