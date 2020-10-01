@@ -43,5 +43,11 @@ JS est un langage de programmation interprété, utilisé d'abord dans du dével
 
 Découvrez les bases du langage et ses principes, et commencez à faire vos premiers programmes simples en JS
 
-- [Plus d'infos ici](./js)
+- [Plus d'infos ici](./langages/js)
 
+
+## Les concepts avances
+
+### Les API
+
+### Le MVC
