@@ -323,3 +323,8 @@ Pour aller plus loin et s'entrainer, vous pourrez retrouver 3 programmes basique
    * les structures de controle, c'est pour les faibles, les vrais font de la récursivité
    * notions vues :
      * bah la récursivité
+     
+## Pour voir plus loin
+
+ * [introduction à nodejs](./nodejs)
+ * [introduction à express](./express)
