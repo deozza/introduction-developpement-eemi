@@ -2,6 +2,22 @@
 
 ## Sommaire
 
+- [Introduction a node.js](#introduction-a-nodejs)
+  * [Sommaire](#sommaire)
+  * [C'est quoi ?](#c-est-quoi--)
+  * [A quoi ça sert ?](#a-quoi-ça-sert--)
+  * [Comment installer](#comment-installer)
+    + [Sur Unix](#sur-unix)
+      - [MacOS](#macos)
+      - [Ubuntu/Debian](#ubuntu-debian)
+      - [Arch](#arch)
+    + [Sur Windows](#sur-windows)
+  * [NPM](#npm)
+  * [Utiliser nodejs](#utiliser-nodejs)
+    + [Exécuter du JS dans le terminal](#exécuter-du-js-dans-le-terminal)
+    + [Lancer un script JS](#lancer-un-script-js)
+
+
 ## C'est quoi ?
 
 Nodejs est une plateforme logicielle pour le langage de programmation JS.

@@ -351,3 +351,15 @@ checkNumberIsPositive(-23); // 'il est négatif'
 
 
 Lorsqu'une structure de contrôle exécute le même bout de code plusieurs fois d'affilés, on appelle cela une boucle.
+
+## Librairie
+
+Une librairie est une petite application qui fournit des fonctionnalités spécifiques prêtes à êtres utilisées dans une application plus grande. Elle permet de faire gagner du temps pour développer. On peut se reposer sur des solutions utilisées, testées et éprouvées par plusieurs miliers de personnes au lieu de développer nous-même des fonctionnalités basiques (et risquer qu'elles soient mal développées)
+
+## Framework
+
+*Ne pas confondre framework et librairie.*
+
+ Un framework peut se traduire par `cadre de travail` . En se reposant sur des règles de bonnes pratiques, un framework va guider un développeur pour coder d'une certaine manière. Ce qui permet, entre autre, de pouvoir trouver beaucoup plus facilement de l'aide auprès d'autres développeurs : il est bien plus facile de debug et de trouver des tuto lorsque tout le monde code de la même manière.
+
+ Il va également fournir un ensemble de librairies pour fournir des fonctionnalités basiques et présentes dans la grande majorité des applications.
