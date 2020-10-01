@@ -131,7 +131,7 @@ Si on veut enregistrer un string, la valeur sera entourée de `'` ou de `"`. En 
 
 let valueWithSingleQuote = 'Ceci est une phrase sans formatage.\nSans retour à la ligne.';
 
-let valueWithDoubleQuote = "Ceci est une phrase sans formatage.\nAvec retour à la ligne. En plus je peux écrire aujourd'hui sans probleme."";
+let valueWithDoubleQuote = "Ceci est une phrase sans formatage.\nAvec retour à la ligne. En plus je peux écrire aujourd'hui sans probleme.";
 ```
 
 Ici, l'utilisation de double quote va intérpréter le `\n` comme étant un retour à la ligne.
