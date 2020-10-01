@@ -125,8 +125,8 @@ ___gras et italique___
       * rouge
       * verte
       * jaune
-    * banane
-    * poire
+   * banane
+   * poire
  * légumes
    * concombre
    * brocoli
@@ -138,8 +138,8 @@ ___gras et italique___
       * rouge
       * verte
       * jaune
-    * banane
-    * poire
+   * banane
+   * poire
  * légumes
    * concombre
    * brocoli
@@ -154,8 +154,8 @@ ___gras et italique___
       1. rouge
       2. verte
       3. jaune
-    2. banane
-    3. poire
+   2. banane
+   3. poire
  2. légumes
    1. concombre
    2. brocoli
@@ -167,8 +167,8 @@ ___gras et italique___
       1. rouge
       2. verte
       3. jaune
-    2. banane
-    3. poire
+   2. banane
+   3. poire
  2. légumes
    1. concombre
    2. brocoli
