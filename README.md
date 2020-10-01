@@ -50,4 +50,5 @@ Découvrez les bases du langage et ses principes, et commencez à faire vos prem
 
 ### Les API
 
+Les API sont des applications tournées vers le backend et qui permettent à un produit de mettre à disposition ses données à d'autres applications.
 ### Le MVC
